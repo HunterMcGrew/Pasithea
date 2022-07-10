@@ -1,16 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
-import 'bulma/css/bulma.min.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./assets/css/reset.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/css/style.css";
+import "./index.css";
+import App from "./App";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import reportWebVitals from "./reportWebVitals";
+import NavBar from "./components/NavBar";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+      <NavBar />
+    <Routes>
+      <Route path="/" element={<App />} />
+    </Routes>
+  </BrowserRouter>
 );
 
 // If you want your app to work offline and load faster, you can change

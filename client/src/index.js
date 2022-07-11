@@ -1,21 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import reportWebVitals from "./reportWebVitals";
+// import styles
 import "./assets/css/reset.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/style.css";
 import "./index.css";
-import App from "./App";
-import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
-import reportWebVitals from "./reportWebVitals";
+// import components
 import NavBar from "./components/NavBar";
+// import pages
+import App from "./App";
+import Home from "./pages/Home";
+import TopicList1 from "./pages/TopicList1";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
       <NavBar />
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Home />} />
+      <Route path="topics" element={<TopicList1 /> } />
     </Routes>
   </BrowserRouter>
 );

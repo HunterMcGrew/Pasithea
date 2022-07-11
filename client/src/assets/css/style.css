@@ -2,4 +2,14 @@
 
 header {
     height: 60px;
+    margin-bottom: 20px;
+}
+
+.spacingDiv {
+    height: 50px;
+}
+
+.testWidth {
+    height: auto;
+    width: 150px;
 }

@@ -7,7 +7,7 @@ const Home = () => {
 
         <section className="container" id="">
 
-            <div className="row" id="">
+            <div className="row justify-content-center" id="">
             {/* Trending -- either gonna be a courasel or something??? */}
 
                 <div className="col-3" id="">
@@ -37,35 +37,35 @@ const Home = () => {
             {/* Rows of #things */}
             <div className="row flex-wrap" id="">
 
-            <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>                    
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>                    
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 

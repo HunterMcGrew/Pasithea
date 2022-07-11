@@ -11,43 +11,43 @@ const TopicList1 = () => {
             {/* Make a way to add events */}
             <div className="row flex-wrap" id="">
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
-                <div className="testWidth" id="">
+                <div className="testWidth m-3" id="">
                     <h2>Test</h2>
                 </div>
 
